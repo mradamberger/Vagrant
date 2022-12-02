@@ -7,7 +7,7 @@
       - panda
       - vagrant
     docker_daemon_options:
-      insecure-registries : ["192.168.44.44:8082"]
+      insecure-registries: ["192.168.44.44:8082"]
   roles:
     - user
     - packages
