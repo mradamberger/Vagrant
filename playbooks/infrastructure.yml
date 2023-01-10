@@ -1,8 +1,8 @@
 ---
-- name
+- name: Infrastructure
   hosts: all
   become: true
+
   roles:
     - infrastructure
-    - sonarcube
-
+    - sonarqube
